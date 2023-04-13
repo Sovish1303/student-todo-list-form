@@ -1,0 +1,59 @@
+<html>
+    
+    <head>
+        <title>To do list</title>
+    </head>
+    <body>
+        <style>
+           body{
+            background-color: skyblue;
+           }
+        </style>
+        
+        <h2>List of days</h2>
+        <div class="student details">
+        <datalist id="department">
+            <option >csc</option>
+            <option>IT</option>
+            <option >CSBS</option>
+            <option >ISE</option>
+            <option >AERO</option>
+            <option >AUTO</option>
+            <option >MECH</option>
+            <option >E&I</option>
+            <option >EEE</option>
+            <option >ECE</option>
+         </datalist>
+         
+        <fieldset>
+            
+             <legend>STUDENT TO DO LIST </legend>
+             
+             <label for="firstname">First Name:</label> 
+             <input type="text" placeholder="First name" name="firstname"> <br /> <br />
+        
+             <label for="lastname">Last Name:</label> 
+             <input type="text"placeholder="LAST name" name="lastname"> <br /> <br />
+             
+             <label for="collage">Collage name:</label> 
+             <input type="text" placeholder="INSTITUTE" name="collage name"><br /><br />
+             <label for="DEPARTMENT">DEPARTMENT:</label> 
+             <input type="text"  name="department" list="department"><br /><br />
+             <label FOR="Syallbus">Syllabus covered related to <SPAN>IT COMPANY: </SPAN> </label>
+             
+             <ol>
+             <label><input type="checkbox">C</label><br /><br />
+             <label><input type="checkbox">c++</label><br /><br />
+             <label><input type="checkbox">JAVA</label><br /><br />
+             <label><input type="checkbox">javascript</label><br /><br />
+             <label><input type="checkbox">data sturcture</label>
+             </ol>
+           
+
+    <input type="submit" value="Submit" />
+          
+             
+          </fieldset>
+        </div>
+    </body>
+</html>
